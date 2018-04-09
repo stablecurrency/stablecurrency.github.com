@@ -1,0 +1,1 @@
+# stablecurrency.github.com
