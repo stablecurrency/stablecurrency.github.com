@@ -295,6 +295,9 @@ html {overflow-y: scroll;}
     left:-11px;
     content: "";
 }
+.container_info img{
+    display: none;
+}
 .ask{
     min-height: 100px;
     padding-bottom: 100px;
@@ -393,6 +396,8 @@ html, body {height:100%;overflow:auto;margin: 0;}
 
 @media(min-width:769px) and (max-width:1199px) {
     .header,.top-body,.money-body,.ask-content{width:80%;margin:0 auto;}
+
+
     .side{
         width:50%;
     }
@@ -415,18 +420,31 @@ html, body {height:100%;overflow:auto;margin: 0;}
 }
 
 @media(min-width:320px) and (max-width:768px) {
-    .logo img{
-        width:40px;
-        height:40px;
+    .header,.top-body,.money-body,.ask-content{width:90%;margin:0 auto;}
+    .content {
+        background-image: url("../image/s1.jpg");
+        background-position:100% 100%;
     }
-    .menu img{display: block;float:right}
+    .container_info{
+        padding: 0;
+    }
+    .container_info img{
+        display: block;
+        width:280px;
+        margin:0 auto;
+    }
+
+    .logo img{
+        width:35px;
+        height:35px;
+    }
+    .menu img{display: block;float:right;width:25px;height:25px;margin-top: 35px}
     .menu ul{
         display: none;
     }
 
-    .header,.top-body,.money-body,.ask-content{width:80%;margin:0 auto;}
     .container_info h1,.top-head{
-        padding-top: 30px;
+        /*padding-top: 30px;*/
     }
     .side_img{
         width:32px;
@@ -486,17 +504,14 @@ html, body {height:100%;overflow:auto;margin: 0;}
     .ask-content h3{
         font-size: 16px;
     }
-}
-@media(min-width:320px) and (max-width:400px) {
-    .content {
-        background-position : -65% 12%;
+    .container_info h1{
+        padding-top: 50px;
+        text-align: center;
+
     }
-
-}
-
-@media(min-width:410px) and (max-width:580px) {
-    .content {
-        background-position : -75% 20%;
+    .container_info h3{
+        text-align: center;
+        padding-top: 0;
+        margin-bottom:20px;
     }
-
 }
