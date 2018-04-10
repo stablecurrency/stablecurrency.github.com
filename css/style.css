@@ -420,7 +420,7 @@ html, body {height:100%;overflow:auto;margin: 0;}
 }
 
 @media(min-width:320px) and (max-width:768px) {
-    .header,.top-body,.money-body,.ask-content{width:90%;margin:0 auto;}
+    .header,.top-body,.money-body,.ask-content{width:83%;margin:0 auto;}
     .content {
         background-image: url("../image/s1.jpg");
         background-position:100% 100%;
