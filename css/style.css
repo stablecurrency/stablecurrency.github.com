@@ -371,7 +371,12 @@ html {overflow-y: scroll;}
 
 
 
-html, body {height:100%;overflow:auto;margin: 0;}
+html, body {
+    height:100%;
+    overflow:auto;
+    margin: 0;
+    -webkit-overflow-scrolling:touch
+}
 .mobile_menu ul{
     width:80%;
     background:white;
